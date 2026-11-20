@@ -1,0 +1,21 @@
+{
+  "name": "eas-quote-calculator",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Client-facing indicative scaffold estimate for Elite Access Solutions. Not a quote.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "tsx scripts/dev.ts",
+    "estimate": "tsx scripts/estimate-cli.ts",
+    "test": "node --import tsx --test --test-concurrency=1 test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.2"
+  }
+}
