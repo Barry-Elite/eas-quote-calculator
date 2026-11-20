@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.vercel
+.env
+.env.*
+*.log
+.DS_Store
+
+# Real rate cards stay off this public repo. The only committed card is the
+# obvious fake fixture under test/fixtures/.
+rate_card*.json
+!test/fixtures/rate_card.fake.json
+
+# The internal Python engine must not be committed.
+quote_calc.py
+uploads/

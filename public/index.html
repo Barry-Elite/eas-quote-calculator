@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Indicative scaffold estimate for Elite Access Solutions on the Gold Coast. Not a quote." />
+    <meta name="theme-color" content="#1e2a30" />
+    <title>Indicative scaffold estimate · Elite Access Solutions</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#job-form">Skip to the job details</a>
+    <header class="mast">
+      <div class="mast-inner">
+        <div class="brand">
+          <svg class="mark" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M8 42V8M18 42V8M30 42V8M40 42V8M8 16h32M8 26h32M8 36h32" fill="none" stroke="currentColor" stroke-width="2" />
+          </svg>
+          <div>
+            <p class="brand-name">Elite Access Solutions</p>
+            <p class="brand-place">Scaffolding · Gold Coast</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-inner">
+        <h1>Indicative scaffold estimate</h1>
+        <p class="lede">A planning range for Kwikstage or Lightweight. It is an estimate, not a quote.</p>
+        <form id="job-form" class="panel" novalidate>
+          <h2>Job details</h2>
+          <div class="fields">
+            <div class="field">
+              <label for="height">Building height <span class="unit">metres</span></label>
+              <input id="height" name="height" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" aria-describedby="height-hint height-error" />
+              <p id="height-hint" class="hint">Rounded up to the nearest 0.5 m before pricing.</p>
+              <p id="height-error" class="field-error" hidden></p>
+            </div>
+            <div class="field">
+              <label for="perimeter">Perimeter <span class="unit">lineal metres</span></label>
+              <input id="perimeter" name="perimeter" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" aria-describedby="perimeter-hint perimeter-error" />
+              <p id="perimeter-hint" class="hint">Length of scaffold around the building.</p>
+              <p id="perimeter-error" class="field-error" hidden></p>
+            </div>
+            <div class="field">
+              <label for="weeks">Hire duration <span class="unit">weeks</span></label>
+              <input id="weeks" name="weeks" type="text" inputmode="numeric" autocomplete="off" spellcheck="false" aria-describedby="weeks-hint weeks-error" />
+              <p id="weeks-hint" class="hint">Whole weeks on hire.</p>
+              <p id="weeks-error" class="field-error" hidden></p>
+            </div>
+          </div>
+          <fieldset>
+            <legend>Scaffold system</legend>
+            <div class="choices">
+              <label class="choice">
+                <input type="radio" name="system" value="kwikstage" checked />
+                <span>Kwikstage</span>
+              </label>
+              <label class="choice">
+                <input type="radio" name="system" value="lightweight" />
+                <span>Lightweight</span>
+              </label>
+              <label class="choice">
+                <input type="radio" name="system" value="other" />
+                <span>Something else / not sure</span>
+              </label>
+            </div>
+          </fieldset>
+          <p id="job-error" class="form-error" role="alert" hidden></p>
+          <button id="show-estimate" type="submit">Show indicative estimate</button>
+        </form>
+        <div id="out" aria-live="polite"></div>
+        <footer class="site-foot">
+          <p>Elite Access Solutions · Gold Coast, Australia</p>
+        </footer>
+      </div>
+    </main>
+    <noscript>
+      <p class="noscript">This calculator needs JavaScript to work out a range. It still doesn't send your details anywhere.</p>
+    </noscript>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

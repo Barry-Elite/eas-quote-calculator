@@ -1,0 +1,717 @@
+{
+ "_comment": "FAKE FIXTURE: same schema as EAS rate card, numbers randomised. Not real pricing.",
+ "meta": {
+  "version": "FAKE-FIXTURE",
+  "effective_date": "2026-11-15",
+  "v2.34_change": "REDACTED",
+  "v2.33_drafting_cap_amend_20261018": "REDACTED",
+  "v2.33_change": "REDACTED",
+  "status": "REDACTED",
+  "v2.32_change": "REDACTED",
+  "v2.30_change": "REDACTED",
+  "v2.29_change": "REDACTED",
+  "v2.28_change": "REDACTED",
+  "v2.27_change": "REDACTED",
+  "v2.26_change": "REDACTED",
+  "v2.24_change": "REDACTED",
+  "v2.23_change": "REDACTED",
+  "v2.22_change": "REDACTED",
+  "currency": "AUD",
+  "gst_rate": 0.086,
+  "v2.31_change": "REDACTED",
+  "v2.31_housekeeping_20260915": "REDACTED",
+  "v2.33_layher_amend_20261020": "REDACTED",
+  "v2.33_whole_dollar_amend_20261021": "REDACTED",
+  "v2.33_labour_rate_selector_amend_20261107": "REDACTED",
+  "v2.33_crew_split_ooh_amend_20261107": "REDACTED",
+  "v2.33_residential_returns_amend_20261107": "REDACTED"
+ },
+ "labour_rate_selector": {
+  "_comment": "REDACTED",
+  "internal_options_per_m2": {
+   "value": [
+    29,
+    50,
+    33,
+    57,
+    54,
+    42,
+    70,
+    47,
+    76,
+    56
+   ],
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "options_presented": {
+   "value": 2,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "internal_only": {
+   "value": true,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "difficulty_tiers_per_m2": {
+   "value": [
+    42,
+    63,
+    38,
+    51
+   ],
+   "default": 55,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "external_rates_per_m2": "REDACTED"
+ },
+ "company": {
+  "name": "REDACTED",
+  "abbrev": "REDACTED",
+  "quote_ref_format": "REDACTED"
+ },
+ "board_configurations": {
+  "_comment": "REDACTED",
+  "5+2": {
+   "label": "REDACTED",
+   "tonnage_factor_t_per_m2": {
+    "value": 0.084,
+    "confirmed": true
+   },
+   "kg_per_m2": 66
+  },
+  "5": {
+   "label": "REDACTED",
+   "tonnage_factor_t_per_m2": {
+    "value": 0.05,
+    "confirmed": true
+   },
+   "kg_per_m2": 75
+  },
+  "3+2": {
+   "label": "REDACTED",
+   "tonnage_factor_t_per_m2": {
+    "value": 0.029,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "kg_per_m2": 59
+  },
+  "3": {
+   "label": "REDACTED",
+   "tonnage_factor_t_per_m2": {
+    "value": 0.032,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "kg_per_m2": 27
+  },
+  "retired_factors_archive": "REDACTED",
+  "why_weights_differ": "REDACTED"
+ },
+ "measurement_rules": {
+  "height_convention": "REDACTED",
+  "internal_runs": "REDACTED",
+  "stairs": {
+   "_comment": "REDACTED",
+   "stretcher_stair_lineal_add_m": {
+    "value": 7,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "construction_stair_lineal_add_m": {
+    "value": 4,
+    "confirmed": true,
+    "note": "REDACTED"
+   }
+  },
+  "residential_returns": {
+   "_comment": "REDACTED",
+   "lineal_add_per_return_m": {
+    "value": 1,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "applies_to": "REDACTED"
+  },
+  "residential_new_build": {
+   "_comment": "REDACTED",
+   "top_deck_below_gutter_m": {
+    "value": 1,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "deck_split_m": {
+    "value": 3,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "deck_mod_drop_m": {
+    "value": 1,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "deck_mod_men": {
+    "value": 3,
+    "confirmed": true
+   },
+   "deck_mod_hours_per_man": {
+    "value": 8,
+    "confirmed": true
+   },
+   "deck_mod_lineal_block_m": {
+    "value": 33,
+    "confirmed": true,
+    "note": "REDACTED"
+   }
+  },
+  "multi_level": {
+   "_comment": "REDACTED",
+   "handrail_above_slab_m": {
+    "value": 0.648,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "front_load": {
+    "value": "install_only",
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "split_method": {
+    "value": "ask_per_job",
+    "confirmed": true,
+    "note": "REDACTED"
+   }
+  },
+  "nearmap_markup": {
+   "_comment": "REDACTED",
+   "budget_only": {
+    "value": true,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "round_lineal_up_to_nearest_m": {
+    "value": true,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "inaccuracy_buffer_pct": {
+    "value": 4,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "always_ask_height": {
+    "value": true,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "max_confidence": {
+    "value": "Medium",
+    "confirmed": true,
+    "note": "REDACTED"
+   }
+  },
+  "loading_bays": {
+   "_comment": "REDACTED",
+   "lineal_add_per_bay_m": {
+    "value": 11,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "ply_sheets_per_bay": {
+    "value": 2,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "basic_config": {
+    "value": "REDACTED",
+    "confirmed": true
+   }
+  }
+ },
+ "global": {
+  "install_rate_per_m2": {
+   "value": 43,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "tonnage_factor_t_per_m2": {
+   "value": 0.066,
+   "confirmed": false,
+   "retired": true,
+   "note": "REDACTED"
+  },
+  "truck_nominal_capacity_t": {
+   "value": 10,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "truck_max_capacity_t": {
+   "value": 10,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "transport_per_leg_sell": {
+   "value": 1359,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "transport_per_leg_cost": {
+   "value": 881,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "eas_truck_threshold_t": {
+   "value": 3,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "eas_truck_per_leg_sell": {
+   "value": 583,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "eas_truck_per_leg_cost": {
+   "value": 357,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "_consumables_base_retired": "REDACTED",
+  "fall_threshold_m": 5,
+  "minimum_job_m2": {
+   "value": 118,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "sell_rounding": {
+   "value": "whole_dollar_up",
+   "confirmed": true,
+   "note": "REDACTED"
+  }
+ },
+ "labour": {
+  "charge_out_rate_per_hour": {
+   "value": 91,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "budget_hours_model": "REDACTED",
+  "round_up_labour_hours": {
+   "value": true,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "cost_rate_per_hour": {
+   "value": 90,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "install_m2_per_man_shift": {
+   "value": 21,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "dismantle_m2_per_man_shift": {
+   "value": 47,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "shift_hours": {
+   "value": 10,
+   "confirmed": true
+  },
+  "min_crew_size": {
+   "value": 2,
+   "confirmed": true
+  },
+  "crew_day_benchmark": {
+   "value": 89,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "yard_pick_hours_per_truck": {
+   "value": 1,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "mobilise_rule": "REDACTED",
+  "overtime_rate_per_hour": {
+   "value": 170,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "recommended_crew_max_work_days": {
+   "value": 24,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "install_dismantle_split": {
+   "install_parts": 2,
+   "dismantle_parts": 1,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "ooh_cost_per_hour": {
+   "night_run": {
+    "value": 104,
+    "confirmed": false
+   },
+   "night": {
+    "value": 156,
+    "confirmed": false
+   },
+   "saturday": {
+    "value": 102,
+    "confirmed": false
+   },
+   "sunday": {
+    "value": 150,
+    "confirmed": false
+   },
+   "public_holiday": {
+    "value": 172,
+    "confirmed": false
+   },
+   "confirmed": false,
+   "note": "REDACTED"
+  },
+  "ooh_sell_per_hour": {
+   "night_run": {
+    "value": 160,
+    "confirmed": true
+   },
+   "night": {
+    "value": 159,
+    "confirmed": true
+   },
+   "saturday": {
+    "value": 210,
+    "confirmed": true
+   },
+   "sunday": {
+    "value": 237,
+    "confirmed": true
+   },
+   "public_holiday": {
+    "value": 201,
+    "confirmed": true
+   },
+   "confirmed": true,
+   "note": "REDACTED"
+  }
+ },
+ "drafting": {
+  "_comment": "REDACTED",
+  "rate_per_hour": {
+   "value": 147,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "max_hours_per_scaffold": {
+   "value": 5,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "cost_rate_per_hour": {
+   "value": 75,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "minimum_hours": {
+   "value": 2,
+   "confirmed": true
+  },
+  "additional_hours_per_500m2": {
+   "value": 3,
+   "confirmed": true
+  }
+ },
+ "rpeq": {
+  "certification_fee": {
+   "value": 1509,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "certification_cost": {
+   "value": 414,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "triggers": [
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED"
+  ]
+ },
+ "consumables": {
+  "_mesh_comment": "REDACTED",
+  "mesh_sell_per_m2": {
+   "value": 5,
+   "confirmed": true
+  },
+  "mesh_cost_per_m2": {
+   "value": 2,
+   "confirmed": true
+  },
+  "ply_sell_per_sheet": {
+   "value": 88,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "ply_cost_per_sheet": {
+   "value": 95,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "encapsulation_sell_per_m2": {
+   "value": 4,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "encapsulation_cost_per_m2": {
+   "value": 1,
+   "confirmed": true,
+   "note": "REDACTED"
+  }
+ },
+ "scaffold_inspection": {
+  "_comment": "REDACTED",
+  "cycle_days": {
+   "value": 18,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "monthly_tag_sell": {
+   "value": 668,
+   "confirmed": true
+  },
+  "monthly_tag_cost": {
+   "value": 229,
+   "confirmed": true
+  }
+ },
+ "hop_up_adjustment": {
+  "_comment": "REDACTED",
+  "rate_per_lineal_m_sell": {
+   "value": 44,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "basis": {
+   "value": "perimeter_lineal_per_deck_level",
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "budget_hours_basis": {
+   "value": "per_level_line_div_110",
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "cost_rate_per_hour": {
+   "value": 59,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "straight_run_default": {
+   "value": true,
+   "confirmed": true,
+   "note": "REDACTED"
+  }
+ },
+ "types": {
+  "kwikstage": {
+   "label": "REDACTED",
+   "phase": 1,
+   "use": "REDACTED",
+   "pricing_basis": "REDACTED",
+   "install_rate_per_m2": {
+    "value": 33,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "hire_basis": {
+    "value": "tonnage",
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "hire_rate_per_t_per_week": {
+    "value": 43.171,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "hire_cost_per_t_per_week": {
+    "value": 21.831,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "hire_rate_per_m2_per_week": {
+    "value": 2.613,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "hire_cost_per_m2_per_week": {
+    "value": 1.444,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "tonnage_factor_t_per_m2": {
+    "value": 0.08,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "duty": "REDACTED",
+   "min_weekly_hire": {
+    "value": 165,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "over_4m": true,
+   "default": true
+  },
+  "lightweight": {
+   "label": "REDACTED",
+   "phase": 2,
+   "use": "REDACTED",
+   "pricing_basis": "REDACTED",
+   "install_rate_per_m2": {
+    "value": 44,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "hire_basis": {
+    "value": "m2",
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "hire_rate_per_m2_per_week": {
+    "value": 5.883,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "hire_cost_per_m2_per_week": {
+    "value": 4.099,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "transport_note": "REDACTED",
+   "duty": "REDACTED",
+   "min_weekly_hire": {
+    "value": 324,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "over_4m": true
+  },
+  "layher": {
+   "label": "REDACTED",
+   "phase": 1,
+   "use": "REDACTED",
+   "pricing_basis": "REDACTED",
+   "install_rate_per_m2": {
+    "value": 39,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "hire_basis": {
+    "value": "tonnage",
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "hire_rate_per_m2_per_week": {
+    "value": 5.9,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "hire_cost_per_t_per_week": {
+    "value": 25,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "tonnage_note": "REDACTED",
+   "duty": "REDACTED",
+   "min_weekly_hire": {
+    "value": 171,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "over_4m": true,
+   "hire_rate_per_t_per_week": {
+    "value": 65,
+    "confirmed": true,
+    "note": "REDACTED"
+   },
+   "min_hire_tonnes": {
+    "value": 1,
+    "confirmed": true,
+    "note": "REDACTED"
+   }
+  }
+ },
+ "phase3_types_not_yet_priceable": {
+  "note": "REDACTED",
+  "list": [
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED"
+  ]
+ },
+ "servicem8_line_items": {
+  "_comment": "REDACTED",
+  "items": [
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED",
+   "REDACTED"
+  ],
+  "_items_note": "REDACTED",
+  "retired_items": {
+   "Consumables - General": "REDACTED"
+  }
+ },
+ "commercial_confirmations": {
+  "_comment": "REDACTED",
+  "hire_included_in_erect_price": {
+   "value": false,
+   "confirmed": true,
+   "note": "REDACTED"
+  },
+  "discount_floor": {
+   "value": null,
+   "confirmed": true,
+   "note": "REDACTED"
+  }
+ },
+ "priced_on_application": {
+  "_comment": "REDACTED",
+  "items": [
+   "REDACTED",
+   "REDACTED",
+   "REDACTED"
+  ],
+  "not_offered": {
+   "items": [
+    "REDACTED"
+   ],
+   "note": "REDACTED"
+  }
+ }
+}
